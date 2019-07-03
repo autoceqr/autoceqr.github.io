@@ -58,9 +58,13 @@
 <span class="sb">num_units = {...}</span>
 <span class="sb">bldg_height = {...}</span>
 
-<span class="nv">report_and_maps = run_autoCEQR(bbl, num_units, bldg_height)</span>
+<span class="nv">ceqr_report = run_autoCEQR(</span>
+<span class="nv">    bbl, </span>
+<span class="nv">    num_units, </span>
+<span class="nv">    bldg_height, </span>
+<span class="nv">)</span>
 
-
+<span class="nv">email_to_lead_planner(ceqr_report)</span>
 </span>
 </code></pre></div></div>
 
