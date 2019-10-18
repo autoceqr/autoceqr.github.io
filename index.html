@@ -58,13 +58,11 @@
 <p>Our custom software generates all the data and map output required for CEQR.</p>
 
 <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-<span class="sb">ceqr_report =</span> <span class="nv">run_autoCEQR(</span>
-<span class="sb">    bbl, </span>
-<span class="sb">    num_units, </span>
-<span class="sb">    bldg_height, </span>
+<span class="sb">ceqr_report =</span> <span class="nv">run_autoceqr(</span>
+<span class="sb">    project_settings.json
 <span class="nv">)</span>
 
-<span class="nv">email_to_lead_planner(<span class="sb">ceqr_report</span><span class="nv">)</span>
+<span class="nv">email_report_to_planner(<span class="sb">ceqr_report</span><span class="nv">)</span>
 </span>
 </code></pre></div></div>
 
