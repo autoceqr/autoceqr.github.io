@@ -1,5 +1,5 @@
 body {
-    color: #222;
+    color: #0c74bc;
     margin: 0px;
     padding: 0px;
     font-family: Source Sans Pro, Helvetica, Arial, sans-serif;
@@ -9,7 +9,7 @@ body {
 
 .main_content {
     background: #fff;
-    margin: 20px;
+    margin: 60px;
     padding: 0px 0px 50px;
 }
 

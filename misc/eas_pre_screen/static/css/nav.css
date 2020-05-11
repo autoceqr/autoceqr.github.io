@@ -5,24 +5,24 @@
 }
 
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
-    border-color: ##c9e6f2ff;
+    border-color: #c9e6f2
 
     color: white;
 }
 
 .navbar-inverse {
-    background-color: #c9e6f2ff;
-    border-color: #c9e6f2ff;
+    background-color: #ffffff;
+    border-color: #black;
 }
 
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
     color: #fff;
-    background-color: #c9e6f2ff;
+    background-color: black
 }
 
 .navbar-inverse .navbar-brand,
 .navbar-inverse .navbar-nav > li > a {
-    color: #fff;
+    color: #0c74bc;
 }
 
 .navbar-inverse .navbar-brand:hover {
@@ -39,8 +39,9 @@
 
 
 .navbar-brand img {
-    width: 165px;
-    margin-left: 60px;
+    margin-top: 20px;
+    width: 300px;
+    margin-left: 30px;
 }
 
 .navbar-inverse .navbar-toggle {
@@ -60,7 +61,7 @@ nav {
     font-size: 17px;
     color: white;
     height: 85px;
-    background-color: #ffffff;
+    background-color: black;
 }
 
 nav > a {
@@ -71,10 +72,10 @@ nav > a {
 .nav-expand-line {
     height: 2px;
     margin: 6px;
-    background-color: white;
+    background-color: lightblue;
 }
 
 #navbarSupportedContent {
-    background-color: #c9e6f2ff;
+    background-color: #ffffff;
     padding: 10px;
 }

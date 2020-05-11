@@ -12,7 +12,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Python Package Index (demo)</title>
+    <title>AutoCEQR</title>
 
     <link rel="stylesheet"
           href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,600,600italic,700,700italic|Source+Code+Pro:500">
@@ -21,15 +21,15 @@
           href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
           integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="css/site.css"/>
-    <link rel="stylesheet" href="css/nav.css"/>
+    <link rel="stylesheet" href="static/css/site.css"/>
+    <link rel="stylesheet" href="static/css/nav.css"/>
 
 </head>
 <!-- <HEAD>
     <TITLE>AutoCEQR</TITLE>
 </HEAD> -->
 <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse navbar-expand-md">
-    <a class="navbar-brand" href="/"><img src="img/logo.png"/></a>
+    <a class="navbar-brand" href="https://autoceqr.github.io/"><img src="static/img/autoceqr_lowercase_white.png"></a>
 
     <button class="navbar-toggler navbar-toggle" type="button" data-toggle="collapse"
             data-target="#navbarSupportedContent"
@@ -43,8 +43,8 @@
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
-            <li class="nav-item"><a class="nav-link" href="#">EAS Items</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Maps</a></li>
+            <li class="nav-item"><a class="nav-link" href="#eas_items">EAS Items</a></li>
+            <li class="nav-item"><a class="nav-link" href="#maps">Maps</a></li>
 
 
         </ul>
@@ -54,13 +54,14 @@
 
   <div class="main_content">
 
-   <h1>AutoCEQR - EAS Form Pre-Screen</h1>
 
-   <h2>EAS Form Pre-Screen Table Items</h2>
+    <h1>EAS Form Pre-Screen</h1>
+      </br>
+    <h2 id="eas_items">EAS Form Pre-Screen Table Items</h2>
+      </br>
+    <h3>BBL(s): 30003</h3>
 
-   <h3>BBL(s): 30003</h3>
-
-   <table>
+<table>
 
 <tr>
    <td class="c1">01 Site Borough</td>
@@ -208,41 +209,40 @@
 </tr>
 
 </table>
+  </br>
+  </br>
 
-   <h2>Eas Pre-Screen Maps</h2>
+   <h2 id="maps">EAS Pre-Screen Maps</h2>
 
-   
-
-
-    <h2>1 Eas Figure 1 Site Location Map.Png</h2>
+    <h4>1 Eas Figure 1 Site Location Map.Png</h4>
     <img src="https://autoceqr.s3.amazonaws.com/ceqr_20200501_1917_3024570041_1_eas_figure_1_site_location_map.png" alt="1 Eas Figure 1 Site Location Map.Png" width=100%>
 
 
-    <h2>2 Eas Figure 2 Tax Map.Png</h2>
+    <h4>2 Eas Figure 2 Tax Map.Png</h4>
     <img src="https://autoceqr.s3.amazonaws.com/ceqr_20200501_1917_3024570041_2_eas_figure_2_tax_map.png" alt="2 Eas Figure 2 Tax Map.Png" width=100%>
 
 
-    <h2>3 Eas Figure 3 Existing Zoning Map.Png</h2>
+    <h4>3 Eas Figure 3 Existing Zoning Map.Png</h4>
     <img src="https://autoceqr.s3.amazonaws.com/ceqr_20200501_1917_3024570041_3_eas_figure_3_existing_zoning_map.png" alt="3 Eas Figure 3 Existing Zoning Map.Png" width=100%>
 
 
-    <h2>4 Eas Figure 4 Existing Land Use Map.Png</h2>
+    <h4>4 Eas Figure 4 Existing Land Use Map.Png</h4>
     <img src="https://autoceqr.s3.amazonaws.com/ceqr_20200501_1917_3024570041_4_eas_figure_4_existing_land_use_map.png" alt="4 Eas Figure 4 Existing Land Use Map.Png" width=100%>
 
 
-    <h2>5 Eas Figure 5 Aerial Imagery.Png</h2>
+    <h4>5 Eas Figure 5 Aerial Imagery.Png</h4>
     <img src="https://autoceqr.s3.amazonaws.com/ceqr_20200501_1917_3024570041_5_eas_figure_5_aerial_imagery.png" alt="5 Eas Figure 5 Aerial Imagery.Png" width=100%>
 
 
-    <h2>6 Eas Figure 6 Coastal Zone Boundary Map.Png</h2>
+    <h4>6 Eas Figure 6 Coastal Zone Boundary Map.Png</h4>
     <img src="https://autoceqr.s3.amazonaws.com/ceqr_20200501_1917_3024570041_6_eas_figure_6_coastal_zone_boundary_map.png" alt="6 Eas Figure 6 Coastal Zone Boundary Map.Png" width=100%>
 
 
-    <h2>7 Eas Figure 7 Fema Flood Hazard Areas 2007.Png</h2>
+    <h4>7 Eas Figure 7 Fema Flood Hazard Areas 2007.Png</h4>
     <img src="https://autoceqr.s3.amazonaws.com/ceqr_20200501_1917_3024570041_7_eas_figure_7_fema_flood_hazard_areas_2007.png" alt="7 Eas Figure 7 Fema Flood Hazard Areas 2007.Png" width=100%>
 
 
-    <h2>8 Eas Figure 8 Fema Flood Hazard Areas 2015.Png</h2>
+    <h4>8 Eas Figure 8 Fema Flood Hazard Areas 2015.Png</h4>
     <img src="https://autoceqr.s3.amazonaws.com/ceqr_20200501_1917_3024570041_8_eas_figure_8_fema_flood_hazard_areas_2015.png" alt="8 Eas Figure 8 Fema Flood Hazard Areas 2015.Png" width=100%>
 
 
@@ -252,10 +252,8 @@
 
 <footer>
     <div class="copyright">
-        This is a fake site built during a course.<br>
-        It's meant to model / simulate the real <a href="https://pypi.org">pypi.org</a><br>
-        <br>
-        Copyright &copy; <a href="https://training.talkpython.fm">Talk Python Training</a>.
+      <a class="navbar-brand" href="https://autoceqr.github.io/"><img src="static/img/autoceqr_lowercase_white.png"></a>
+        <!-- Copyright &copy; <a href="https://autoceqr.com">autoceqr.com</a>. -->
     </div>
 </footer>
 
